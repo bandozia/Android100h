@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lab01_impacta">Impacta</string>
+    <string name="lab01_toast_clicado">%s clicado</string>
+    <string name="lab01_tv_labs">L\na\nb\ns</string>
+    <string name="lab01_tv_laboratorios">Laboratórios</string>
+    <string name="lab01_bt_megasena">Mega Sena</string>
+    <string name="lab01_bt_gorjeta">Gorjeta</string>
+    <string name="lab01_bt_intent">Câmera</string>
+    <string name="lab01_bt_cpf">Validador CPF</string>
+    <string name="lab01_bt_game01">Jogo da Velha</string>
+    <string name="lab01_bt_gps">Me localize</string>
+    <string name="lab01_bt_sqlite">Notas</string>
+    <string name="lab01_bt_cep">Buscar CEP</string>
+    <string name="lab01_bt_game02">Jogo com Bola</string>
+    <string name="lab01_bt_service">Music Player</string>
+    <string name="lab01_bt_bluetooth">Chat Blue</string>
+    <string name="lab01_bt_sms">Mensagens SMS</string>
+    <string name="lab01_bt_camera">Câmera</string>
+    <string name="lab01_bt_game03">Jogo do canhão</string>
+    <string name="lab01_bt_share_preferences">Configurações</string>
+</resources>

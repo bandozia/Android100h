@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Lab02.Title.Vertical.Top" parent="AppTheme">
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_width">80sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">top|center</item>
+    </style>
+
+    <style name="AppTheme.Lab02.Title.Vertical.Bottom" parent="AppTheme">
+        <item name="android:textSize">50sp</item>
+        <item name="android:layout_width">80sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">bottom|center</item>
+    </style>
+</resources>

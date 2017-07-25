@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lab02_tv_mega">M\ne\ng\na</string>
+    <string name="lab02_tv_sena">S\ne\nn\na</string>
+    <string name="lab02_tv_jogo">00 00 00 00 00 00</string>
+    <string name="lab02_tv_jogos">Jogos</string>
+    <string name="lab02_sb_sorteio">10</string>
+    <string name="lab02_bt_sortear">Sortear</string>
+    <string name="lab02_toast_sorteio_min">Mínimo de %s sorteio</string>
+    <string name="lab02_toast_sorteio_max">Máximo de %s sorteios</string>
+    <string name="clipboard">JOGO COPIADO</string>
+</resources>

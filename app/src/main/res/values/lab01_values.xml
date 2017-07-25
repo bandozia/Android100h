@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="lab01_handler_delay">1000</integer>
+    <dimen name="lab01_largura_logo">250sp</dimen>
+</resources>

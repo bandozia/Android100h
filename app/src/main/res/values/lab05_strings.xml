@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lab05_et_cpf">CPF</string>
+    <string name="lab05_bt_validar">Validar</string>
+</resources>

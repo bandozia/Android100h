@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Lab01.Title" parent="AppTheme">
+        <item name="android:textSize">40sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Lab01.Label" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.Lab01.Button" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">1sp</item>
+        <item name="android:layout_marginBottom">1sp</item>
+    </style>
+
+    <style name="AppTheme.Lab01.Button.Green" parent="AppTheme.Lab01.Button">
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Lab01.Button.Yellow" parent="AppTheme.Lab01.Button">
+        <item name="android:background">#FFFF00</item>
+    </style>
+
+    <style name="AppTheme.Lab01.Button.Red" parent="AppTheme.Lab01.Button">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lab04_bt_imagem_capturar">Imagem</string>
+    <string name="lab04_toast_imagem_cancelada">Imagem cancelada</string>
+    <string name="lab04_bt_video_capturar">Vídeo</string>
+    <string name="lab04_toast_video_cancelada">Vídeo cancelado</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/AppTheme.Lab01.Title"
+        android:text="@string/lab01_bt_cpf" />
+
+    <EditText
+        android:id="@+id/lab05_et_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:inputType="number"
+        android:hint="@string/lab05_et_cpf" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:onClick="validar"
+        android:text="@string/lab05_bt_validar" />
+
+</LinearLayout>
