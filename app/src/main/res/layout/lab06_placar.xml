@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_gravity="center">
+
+    <TextView
+        style="@style/Lab06.Placar"
+        android:id="@+id/lab06_placarX"
+        android:text="@string/lab06_jogosX" />
+
+    <TextView
+        style="@style/Lab06.Placar"
+        android:text="@string/lab06_jogos" />
+
+    <TextView
+        style="@style/Lab06.Placar"
+        android:id="@+id/lab06_placarO"
+        android:text="@string/lab06_jogosO" />
+
+</LinearLayout>

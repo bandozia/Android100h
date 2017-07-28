@@ -13,6 +13,7 @@ import br.com.impacta.android100h.lab02.app.controller.MegaSenaActivity;
 import br.com.impacta.android100h.lab03.app.controller.GorjetaActivity;
 import br.com.impacta.android100h.lab04.app.controller.IntentActivity;
 import br.com.impacta.android100h.lab05.app.controller.CPFActivity;
+import br.com.impacta.android100h.lab06.app.controller.JogoVelhaActivity;
 
 
 public class MainActivity extends ImpactaActivity {
@@ -28,7 +29,9 @@ public class MainActivity extends ImpactaActivity {
         setOnClickActivityAction(R.id.lab01_bt_intent, IntentActivity.class);
         setOnClickActivityAction(R.id.lab01_bt_cpf, CPFActivity.class);
         setToastOnClickAction(R.id.lab01_bt_cep);
-        setToastOnClickAction(R.id.lab01_bt_game01);
+
+        setOnClickActivityAction(R.id.lab01_bt_game01, JogoVelhaActivity.class);
+
         setToastOnClickAction(R.id.lab01_bt_gps);
         setToastOnClickAction(R.id.lab01_bt_sqlite);
         setToastOnClickAction(R.id.lab01_bt_game02);

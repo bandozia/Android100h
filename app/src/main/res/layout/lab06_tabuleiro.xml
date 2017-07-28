@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:stretchColumns="0,1,2" android:background="@android:color/black">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_00"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_01"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_02"
+            android:onClick="jogarClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Lab06.Quadro"
+            oid:tag="@string/lab06_quadro_10"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_11"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_12"
+            android:onClick="jogarClick" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_20"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_21"
+            android:onClick="jogarClick" />
+
+        <Button
+            style="@style/Lab06.Quadro"
+            android:tag="@string/lab06_quadro_22"
+            android:onClick="jogarClick" />
+    </TableRow>
+
+</TableLayout>

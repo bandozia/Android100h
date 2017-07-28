@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Lab06">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Lab06.Quadro" parent="Lab06">
+        <item name="android:padding">10sp</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="Lab06.Quadro.Vencedor" parent="Lab06.Quadro">
+        <item name="android:background">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="Lab06.Placar" parent="Lab06">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#0000FF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10sp</item>
+        <item name="android:paddingRight">10sp</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingBottom">10sp</item>
+    </style>
+
+    <style name="Lab06.Placar.Vencedor" parent="Lab06.Placar">
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

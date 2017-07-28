@@ -44,7 +44,7 @@
             <Button
                 android:id="@+id/lab01_bt_game01"
                 android:text="@string/lab01_bt_game01"
-                style="@style/AppTheme.Lab01.Button.Red"/>
+                style="@style/AppTheme.Lab01.Button.Green"/>
 
             <Button
                 android:id="@+id/lab01_bt_gps"

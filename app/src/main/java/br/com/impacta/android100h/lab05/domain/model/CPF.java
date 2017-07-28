@@ -3,9 +3,6 @@ package br.com.impacta.android100h.lab05.domain.model;
 import br.com.impacta.android100h.lab05.domain.Documento;
 import br.com.impacta.android100h.lab05.domain.exception.DocumentoException;
 
-/**
- * Created by no3603 on 18/07/2017.
- */
 
 public class CPF  implements Documento{
 

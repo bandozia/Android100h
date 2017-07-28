@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -15,7 +16,7 @@ import android.widget.Toast;
 import br.com.impacta.android100h.R;
 
 
-public class ImpactaActivity extends Activity {
+public class ImpactaActivity extends AppCompatActivity {
 
     public interface Keys{
         String CLIPBOARD = "impacta.clip";

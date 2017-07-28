@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/AppTheme.Lab01.Title"
+        android:text="@string/lab01_bt_game01" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lab06_placarFragment"
+        android:name="br.com.impacta.android100h.lab06.app.controller.PlacarFragment"
+        tools:layout="@layout/lab06_placar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lab06_tabuleiroFragment" />
+
+</LinearLayout>

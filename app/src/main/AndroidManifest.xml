@@ -16,7 +16,7 @@
         <activity
             android:name=".lab01.app.controller.SplashActivity"
             android:noHistory="true"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:theme="@style/AppTheme"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -29,6 +29,9 @@
         <activity android:name=".lab03.app.controller.GorjetaActivity"></activity>
         <activity android:name=".lab04.app.controller.IntentActivity"></activity>
         <activity android:name=".lab05.app.controller.CPFActivity"></activity>
+
+        <activity android:name=".lab06.app.controller.JogoVelhaActivity"
+            android:screenOrientation="portrait"></activity>
 
     </application>
 
